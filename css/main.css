@@ -1,0 +1,10 @@
+h3 {
+	text-transform: uppercase;
+}
+
+.leftcontainer {
+	background-color: gray;
+	width: 270px;
+	height: 280px;
+	border-top: 3px solid blue;
+}
