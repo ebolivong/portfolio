@@ -1,10 +1,70 @@
-h3 {
+@font-face {
+	font-family: fsbolditalic;
+	src: url(../font/fsbolditalic.otf);
+}
+
+@font-face {
+	font-family: fsmedium;
+	src: url(../font/fsmedium.otf);
+}
+
+@font-face {
+	font-family: fslight;
+	src: url(../font/fslight.otf);
+}
+
+h1 {
 	text-transform: uppercase;
+	font-family: fsmedium;
+}
+
+p {
+	font-family: fslight;
+	font-size: 1.5em;
 }
 
 .leftcontainer {
-	background-color: gray;
-	width: 270px;
-	height: 280px;
-	border-top: 3px solid blue;
+/*	background-color: gray;
+*/	width: 400px;
+	height: 480px;
+	border-top: 8px solid #3a74ba;
+	position: fixed;
+/*	margin-left: 100px;*/
+}
+
+
+.rightcontainer {
+	float: right;
+	background-color: green;
+	width: 1500px;
+	height: 955px;
+}
+
+.rightcontainer img {
+	width: 1300px;
+	height: 168px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	box-shadow: 10px 10px 10px #a8a8a8;
+	float: right;
+}
+
+#maincontainer {
+	position: absolute;
+	width: 2000px;
+	height: 955px;
+/*	background-color: black;
+*/	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+
+#imgcontainer {
+	float: right;
+	background-color: green;
+	width: 1500px;
+	height: 955px;
+	overflow: auto;
+
 }
