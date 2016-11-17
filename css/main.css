@@ -35,7 +35,7 @@ p {
 
 .rightcontainer {
 	float: right;
-	background-color: green;
+/*	background-color: green;*/
 	width: 1500px;
 	height: 955px;
 }
@@ -62,9 +62,17 @@ p {
 
 #imgcontainer {
 	float: right;
-	background-color: green;
+/*	background-color: green;*/
 	width: 1500px;
 	height: 955px;
 	overflow: auto;
+	text-align: center;
 
+}
+
+#imgcontainer img{
+	max-width: 1485px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
