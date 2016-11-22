@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/*768px 16px*/
+@media only screen and (min-width: 48em) {
+
+
+}
+
+
+	
+}
+/*960px 18px*/
+@media only screen and (min-width: 60em) {
+
+}
+
+/*1200px 20px*/
+@media only screen and (min-width: 75em) {
+
+	body p{
+		font-size: 1.5em;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
