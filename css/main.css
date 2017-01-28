@@ -30,6 +30,13 @@ p {
 	color: #6d6e70;
 }
 
+.pdetail {
+	text-transform: uppercase;
+	color: black;
+	font-family: fsmedium;
+	margin-bottom: -10px;
+}
+
 a:link {
 	color: #3a74ba;
 }
@@ -274,7 +281,21 @@ a.hovertext:hover:after, a.hovertext:focus:after {
 
 #imgcontainer img{
 	max-width: 100%;
-	display: inline;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
