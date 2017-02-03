@@ -270,7 +270,7 @@ a.hovertext:hover:after, a.hovertext:focus:after {
 
 #imgcontainer {
 	float: right;
-/*	background-color: green;*/
+	background-color: green;
 	width: 60%;
 	height: 100%;
 	text-align: center;
