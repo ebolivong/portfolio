@@ -1,139 +1,93 @@
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (max-width: 2350px) {
-
-	#imgcontainer {
-		width: 60%;
-	}
-
-}
-
-
-/*1200px 20px*/
-@media only screen and (max-width: 1920px) {
-
-	h1 {
-		text-transform: uppercase;
-		font-family: fsmedium;
-		font-size: 1.5em;
-	}
-
-	p {
-		font-family: fslight;
-		font-size: 1em;
-		color: #6d6e70;
-	}
-
-	#maincontainer {
-		width: 85%;
-		height: 850px;
-
-	}
-
-	/*Project Thumbnails*/
-	.photo-grid {
-		margin-left: 25%;
-	}
-
-	.photo-grid figure {
-		width: 90%;
-		height: 50%;
-	}
-
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 	/*Project Titles*/
 	.photo-grid figcaption p {
-		background-color: black;
+	/*	background-color: black;*/
 		font-family: fsbolditalic;
-		font-size: 3em;
-	   -webkit-text-stroke-width: 1.5px;
+		font-size: 1.9em;
+	   -webkit-text-stroke-width: 0.04em;
 	   -webkit-text-stroke-color: #3a74ba;
 		color: white;
-		text-align: left;
-		padding-left: 5%;
+		vertical-align: middle;
+		text-align: center;
+		padding: 0;
 	}
 
+	.leftcontainer { 
+		text-align: center;
+	 }
 
-	#imgcontainer {
-		width: 60%;
-	}
+	 h1 {
+	 	font-size: 1.6em;
+	 }
 
-	.navleft {
-		margin-left: 4%;
-		top: 12%;
-	}
-
-
-@media only screen and (max-width: 1400px) {
-
-	h1 {
-		text-transform: uppercase;
-		font-family: fsmedium;
-		font-size: 157em;
-	}
-
-	p {
-		font-family: fslight;
-		font-size: 1em;
-		color: #6d6e70;
-	}
-
-	#imgcontainer {
-		width: 55%;
-	}
-	.photo-grid figure {
-
-	}
-
-		/*Project Titles*/
-	.photo-grid figcaption p {
-		background-color: black;
-		font-family: fsbolditalic;
-		font-size: 2em;
-	   -webkit-text-stroke-width: 1.5px;
-	   -webkit-text-stroke-color: #3a74ba;
-		color: white;
-		text-align: left;
-		padding-left: 5%;
-	}
-
-	#maincontainer {
-		margin-top: 5%;
-	}
-
-
-
+	 ul li {
+	 	display: block;
+	 	height: 153px;
+	 	line-height: 153px;
+	 }
 
 }
 
-@media only screen and (max-width: 1280px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-	h1 {
-		text-transform: uppercase;
-		font-family: fsmedium;
-		font-size: 157em;
+		/*Project Titles*/
+	.photo-grid figcaption p {
+	/*	background-color: black;*/
+		font-family: fsbolditalic;
+		font-size: 2.5em;
+	   -webkit-text-stroke-width: 0.04em;
+	   -webkit-text-stroke-color: #3a74ba;
+		color: white;
+		vertical-align: middle;
+		text-align: center;
+		padding: 0;
 	}
 
-	p {
-		font-family: fslight;
-		font-size: 1em;
-		color: #6d6e70;
+	.leftcontainer { 
+		text-align: center;
+	 }
+
+	 h1 {
+	 	font-size: 2.2em;
+	 }
+
+	 ul li {
+	 	display: block;
+	 	height: 153px;
+	 	line-height: 153px;
+	 }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1200px) {
+
+	/*Project Titles*/
+	.photo-grid figcaption p {
+	/*	background-color: black;*/
+		font-family: fsbolditalic;
+		font-size: 4em;
+	   -webkit-text-stroke-width: 0.04em;
+	   -webkit-text-stroke-color: #3a74ba;
+		color: white;
+		vertical-align: middle;
+
 	}
 
-	#imgcontainer {
-		width: 55%;
+	#maincontainer {
+		margin-top: 10%
 	}
 
+	ul {
+		margin-left: 10%;
+	}
 
+	.projfix {
+		position: fixed;
+	}
 
-
-
-
-
-
-
-
-
+}
 
