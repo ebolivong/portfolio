@@ -15,6 +15,11 @@
 	src: url(../fonts/fslight.otf);
 }
 
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
 h1 {
 	text-transform: uppercase;
 	font-family: fsmedium;
@@ -158,7 +163,6 @@ li {
 	max-width: 1185px;
 	height: 153px;
 	margin-bottom: 10px;
-/*	overflow: hidden; ??*/
 }
 
 li a {
@@ -190,6 +194,13 @@ li a {
 	height: 153px;
 }
 
+.photo-grid figure {
+	height: 153px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 5px 5px 10px #cccccb;
+}
+
 /*Project Titles*/
 .photo-grid figcaption p {
 /*	background-color: black;*/
@@ -201,7 +212,10 @@ li a {
 	text-align: right;
 	padding-top: 6%;
 	padding-right: 2%;
+	width: 100%;
 }
+
+
 
 
 
