@@ -34,6 +34,10 @@
 		opacity: 0;
 	}
 
+	.imgcontainer {
+		margin-top: 5%;
+	}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -71,6 +75,11 @@
 	/*	background-color: black;*/
 		opacity: 0;
 	}
+	
+	.imgcontainer {
+		margin-top: 5%;
+	}
+
 }
 
 /* Smaller desktops and laptops ----------- */
@@ -87,6 +96,10 @@
 	#maincontainer {
 		margin-top: 10%
 	}
+
+	.imgcontainer img {
+	margin-left: 5%;
+}
 
 	/* Float Shadow on social */
 	.hvr-float-shadow {
