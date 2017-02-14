@@ -395,6 +395,7 @@ li a {
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
+  margin-bottom: 10%;
   height: 0;
 }
 .videoWrapper iframe {

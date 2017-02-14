@@ -36,7 +36,7 @@
             </div>
             <div class="rightcontainer col-xs-12 col-med-7 col-lg-9">
                 
-                  <form id="contact" action="" method="post">
+                  <form id="contact" action="https://my.bluehost.com/bluemail" enctype="multipart/form-data" method="post">
                         <fieldset>
                             <input placeholder="Name" type="text" tabindex="1" required autofocus>
                         </fieldset>
@@ -51,7 +51,11 @@
                         </fieldset>
                         <fieldset>
                             <div style="text-align: center;">
-                                <button class="hvr-icon-forward" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+
+                            <input type="hidden" name="sendtoemail" value="portfolio@evb.design">
+                            <input type="hidden" name="subject" value="Portfolio Inquiry">
+                            <input type="hidden" name="redirect" value="http://www.evb.design/index.html">
+                            <button class="hvr-icon-forward" name="submit" type="submit" id="contact-submit" value="send">Submit</button>
                             </div>
                         </fieldset>
                   </form>
