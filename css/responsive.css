@@ -97,14 +97,16 @@
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1200px) {
 
+	p {
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+
 	.imgcontainer img {
 		margin-bottom: 150px;
 	}
 
 
-	ul {
-		margin-left: 5%;
-	}
 
 	/*Project Titles*/
 	.photo-grid figcaption p {
